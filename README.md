@@ -129,6 +129,7 @@ digitalWrite(7,HIGH);
 ## Simulation output:
 
 
+![Screenshot (68)](https://user-images.githubusercontent.com/94677128/189493814-85771a77-2ae3-4226-bde9-7dd1f789e5e0.png)
 
 ![Screenshot (66)](https://user-images.githubusercontent.com/94677128/189493231-1526ed39-b32d-414c-ae53-06a96a31ea68.png)
 
