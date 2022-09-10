@@ -67,10 +67,59 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
+ ```
+ Name : MEENA .S
+ Register Number : 212221240028
  
+void setup()
 
+{
 
+pinMode(A0, INPUT);
 
+pinMode(7, OUTPUT);
+
+pinMode(8, OUTPUT);
+
+Serial.begin(9600);
+
+}
+
+void loop()
+
+{
+
+int Sensorvalue = analogRead(A0);
+
+//Serial.print("Sensor Value = ");
+
+Serial.println(Sensorvalue);
+
+//delay(500);
+
+if(Sensorvalue<=30)
+
+{
+
+digitalWrite(8, HIGH);
+
+digitalWrite(7, LOW);
+
+}
+
+else if(Sensorvalue>=500)
+
+{
+
+digitalWrite(8,LOW);
+
+digitalWrite(7,HIGH);
+
+}
+
+}
+
+```
 
 
 
@@ -82,7 +131,8 @@ CIRCUIT DIAGRAM
 **
 
 
-[My image](username.github.com/repository/img/image.jpg)
+![Screenshot (66)](https://user-images.githubusercontent.com/94677128/189493231-1526ed39-b32d-414c-ae53-06a96a31ea68.png)
+
 
 
 
