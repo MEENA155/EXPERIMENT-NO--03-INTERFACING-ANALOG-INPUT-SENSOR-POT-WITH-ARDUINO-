@@ -140,5 +140,5 @@ digitalWrite(7,HIGH);
 
 
 
-**RESULT: ** 
+## RESULT: 
 Arduino uno analog input functioning is learned and interfaced with digital input switch .
