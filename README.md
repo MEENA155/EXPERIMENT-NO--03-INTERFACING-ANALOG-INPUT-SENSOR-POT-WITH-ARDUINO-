@@ -52,7 +52,7 @@ CIRCUIT DIAGRAM
 **FIGURE -01
 **
 
-**PROCEDURE:**
+## PROCEDURE:
 
 1.	Connect the circuit as per the circuit diagram 
 2.	Connect the board to your computer via the USB cable.
@@ -65,8 +65,7 @@ CIRCUIT DIAGRAM
 9.	Ensure safety before powering up the device 
 
 
-
-**PROGRAM** 
+## PROGRAM :
  ```
  Name : MEENA .S
  Register Number : 212221240028
@@ -126,9 +125,9 @@ digitalWrite(7,HIGH);
 
 
 
-**
-**Simulation output:** 
-**
+
+## Simulation output:
+
 
 
 ![Screenshot (66)](https://user-images.githubusercontent.com/94677128/189493231-1526ed39-b32d-414c-ae53-06a96a31ea68.png)
